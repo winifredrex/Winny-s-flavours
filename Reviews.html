@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Review</title>
+    <link rel="stylesheet" href="Reviews.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Corinthia&family=Cuprum&family=Ephesis&family=Great+Vibes&family=Josefin+Slab&family=League+Script&family=Monsieur+La+Doulaise&family=Pacifico&family=Poppins:wght@100&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="index.html">Home🥗</a>
+        <a href="menu.html">Menu🍷</a>
+        <a href="order.html">Order🍽️</a>
+        <a href="about.html">About🤔</a>
+        <a href="contact.html">Contact☏</a>
+        <a href="location.html">Location📍</a>
+        <a href="Reviews.html">Reviews🤩</a>
+    </div>    
+
+    <h1>Website Review Page</h1>
+
+    <form id="myForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Comment:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="checkbox" id="checkbox" name="checkbox" onclick="showAmazingText()"><br>
+        <p id="amazingText" style="display: none;">The food is amazing👏🏾.</p> <br>
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+        <!-- Add more reviews as needed -->
+        <script src="javascript.js"></script>    
+</body>
+
+</html>

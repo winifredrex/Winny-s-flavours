@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(italian-food-concept-with-pasta-space-left.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.menu{
+    font-size: 35px ;
+    color: white;
+    padding-left: 300px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.nav{
+    position:relative;
+}
+a{
+  padding: 10px;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.category {
+    margin-top: 20px;
+    width: 800px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+}
+
+.item-name {
+    color: white;
+}
+.h2{
+    text-align: center;
+}
+.item-price {
+    margin-left: 20px;
+    color: white;
+}
+
+/* Optional: Hover effect */
+li:hover {
+    background-color: lightpink;
+    transition: background-color 0.3s ease;
+}
+@media screen and (max-width: 600px) {
+
+    body {
+        /*background-size: 100% 100%; /* Make background image fill the entire screen */
+        background-attachment: fixed;
+    }
+    .menu {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+    .nav{
+        padding-top: 50px;
+        padding-left: 15px;
+  
+    }
+    .nav a {
+        font-size: 18px; /* Change font size for navigation links */
+    }
+    .category {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 20px auto; /* Center align the category */
+    }
+
+    h2 {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+
+    li {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+
+    .item-price {
+        margin-left: 0; /* Remove left margin for item price */
+        margin-top: 10px; /* Add top margin for item price */
+    }
+}

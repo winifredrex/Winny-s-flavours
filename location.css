@@ -1,0 +1,67 @@
+body{
+        background-image: url(burger-black.jpg);    /* this adds my background picture to my page */
+    
+        background-size: cover;         /* this ceneters the form using margin */
+    
+     
+}
+.nav{
+    position:relative;
+    padding-top: 20px;
+    padding-left: 700px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
+a{
+
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+
+}
+a:hover{
+    color:gold ;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+.location {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    padding-left: 700px;
+    padding-top: 200px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;  
+
+}
+
+
+.location a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.location a:hover {
+    background-color: Gold;
+}
+
+@media screen and (max-width: 768px) {
+    .nav,
+    .location {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+    body {
+        /*background-size: 100% 100%; /* Make background image fill the entire screen */
+        background-attachment: fixed;
+        
+    }
+}

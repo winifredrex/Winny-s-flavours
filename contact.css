@@ -1,0 +1,91 @@
+/* Add these styles to your existing styles.css file */
+
+body{
+    background-image: url(pasta-plate-with-tomatoes-slate.jpg);    /* this adds my background picture to my page */
+
+    background-size: cover;   
+
+    background-attachment: fixed;
+}
+
+/* Style the contact section */
+
+h1{
+    
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+p {
+    color:white;
+    text-align: center;
+
+}
+
+.nav{
+    position:relative;
+    padding-top: 10px;
+    padding-left: 700px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;  
+}
+a{
+
+  padding: 10px;
+  color:white ;
+  font-size: 20px;
+  text-decoration: none;  
+
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.box{
+    padding-top: 200px;
+}
+.style a {
+    color: black; /* Change text color to blue */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Apply bold font weight */
+    padding:10px;
+
+
+
+}
+.style{
+    text-align: center;
+    background-color: white;
+    width: 10%;
+    padding: 5px;
+    border-radius:  10px;
+    margin: 0 auto;
+}
+.style a:hover {
+    color: Red;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+
+    p {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .box {
+        padding-top: 100px; /* Adjust padding for smaller screens */
+    }
+
+    .style {
+        width: 50%; /* Adjust width for smaller screens */
+    }
+}

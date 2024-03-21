@@ -1,0 +1,52 @@
+body{
+ background-image: url(red-pepper-fork-right-side-black-table.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ font-family: "Corinthia", cursive;
+  font-weight: 400;
+}
+.nav{
+    position:relative;
+    padding-top: 20px;
+    padding-left: 700px;
+}
+a{
+
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;  
+
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+p{
+    color: white;
+    width: 450px;
+    font-size: 40px;
+    text-align: center;
+    margin: auto; 
+    padding-top: 90px;
+}
+@media screen and (max-width: 800px) {
+  .nav {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+
+  a {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  p {
+      width: 90%; /* Adjust width for smaller screens */
+      font-size: 30px; /* Adjust font size for smaller screens */
+      padding-top: 50px; /* Adjust padding for smaller screens */
+  }
+}

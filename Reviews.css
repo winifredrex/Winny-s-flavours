@@ -1,0 +1,99 @@
+body {
+  
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+.review-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: plum;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.review {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+body{
+    background-image: url(italian-pasta-with-mint-garlic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   }
+.nav{
+    position:relative;
+    padding-left: 670px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    padding-top: 70px;
+}
+a{
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.review-container h2 {
+    /* Your styles for h2 go here */
+   text-align: center;
+}
+form{
+    background-color: rgba(225, 225, 225, 0.999);
+    width:40%;
+    margin: 20px auto 0 auto;
+    display:grid;
+    padding: 10px;
+    text-align: center;
+}
+button
+{
+    width:20%;
+    border: 10px;
+    margin:5px auto;
+    background-color: lightskyblue;
+    color: white;
+    padding:5px;
+
+}
+input[type=text]
+{
+    padding:6px;
+}
+
+input[type=email]{
+    height: 70px;
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        padding-top: 20px; /* Adjust padding for smaller screens */
+    }
+
+    form {
+        width: 80%; /* Adjust form width for smaller screens */
+    }
+
+    button {
+        width: 40%; /* Adjust button width for smaller screens */
+    }
+
+    input[type=email] {
+        height: 50px; /* Reset input height for smaller screens */
+    }
+}

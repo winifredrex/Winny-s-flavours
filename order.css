@@ -1,0 +1,102 @@
+body{  /* this is the body */
+    background-image: url(italian-pasta-with-mint-garlic.jpg);    /* this adds my background picture to my page */
+
+    background-size: cover;         /* this ceneters the form using margin */
+
+    margin: 20px;   /* this ceneters the form using margin */
+
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+}
+
+input[type="button"] {
+    /* Set width and height as per your requirements */
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Viaoda Libre", serif;
+}
+
+label {  /* this is the label */
+    display: block;    /* this makes the label a block */
+
+    margin-bottom: 8px;  /* this makes the label a block */
+}
+
+form { /* this is the form */
+    padding-top: 130px;     /* this padds ontop of the form to make it in  the place in the middle */
+
+    max-width: 400px;     /* this is the width of the form */
+
+    margin: auto;       /* this ceneters the form using margin */
+}
+
+input, select, button { /* this is the input, select, and button */
+
+    width: 100%;  /* this is the width of the input, select, and button */
+
+    padding: 8px; /* this is the padding of the input, select, and button */
+
+    margin-bottom: 16px;  /* this is the margin of the input, select, and button */
+
+}
+.nav{
+    position:relative;
+    padding-left: 680px;
+}
+a{
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+button {  /* this is the button */
+
+    background-color: gold;  /* this is the background color of the button */
+
+    color: black;  /* this is the color of the button */
+
+    border: none; /* this is the border of the button */
+
+    padding: 10px;  /* this is the padding of the button */
+
+    cursor: pointer; /* this is the cursor of the button */
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .nav {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+    body {
+        /*background-size: 100% 100%; /* Make background image fill the entire screen */
+        background-attachment: fixed;
+        
+    }
+  
+
+    label {
+        margin-bottom: 5px; /* Adjust margin for smaller screens */
+    }
+
+    input, select, button {
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    form {
+        padding-top: 50px; /* Adjust padding for smaller screens */
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Set the character set and viewport for better rendering on different devices -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Corinthia&family=Cuprum&family=Ephesis&family=Great+Vibes&family=Josefin+Slab&family=League+Script&family=Monsieur+La+Doulaise&family=Pacifico&family=Poppins:wght@100&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+
+    <!-- Set the title of the webpage -->
+    <title>Order Form</title>
+
+    <!-- Link the external stylesheet for styling -->
+    <link rel="stylesheet" href="order.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="index.html">Home🥗</a>
+        <a href="menu.html">Menu🍷</a>
+        <a href="order.html">Order🍽️</a>
+        <a href="about.html">About🤔</a>
+        <a href="contact.html">Contact☏</a>
+        <a href="location.html">Location📍</a>
+        <a href="Reviews.html">Reviews🤩</a>
+    </div>    
+        <form name="form1">
+            Enter your Name:<input type="text" name="name"/>
+            Enter your Phone number:<input type="text" name="name1"/>
+            Enter your Address:<input type="text" name="name2"/>
+            Enter your Email:<input type="text" name="name3"/>
+            Enter your Order:<input type="text" name="name4"/>
+
+            <input type="button" onclick="printvalue()" value="Submit Order"/>
+
+        </form>
+        
+        
+
+    <!-- Include the external JavaScript file for handling form submission -->
+    <script src="order.js"></script>
+</body>
+</html>
